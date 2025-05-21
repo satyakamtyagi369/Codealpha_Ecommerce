@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSL E-commerce Store</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">CSL Shopping Store</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#cart">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to CSL Shopping Store</h1>
+    <p>Your one-stop online store for quality goods!</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+  </section>
+
+  <section id="products" class="product-list">
+    <h2>Our Products</h2>
+    <div id="product-container" class="products"></div>
+  </section>
+
+  <section id="cart" class="cart-section">
+    <h2>Your Shopping Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-total"></div>
+    <button onclick="checkout()">Checkout</button>
+  </section>
+
+  <footer>
+    <p>© 2025 CSL Shopping Smart. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
